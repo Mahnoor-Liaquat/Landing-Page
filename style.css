@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    color:rgb(190, 215, 25);
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+nav{
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 0.2em;
+}
+
+.border
+{
+border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid ;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+    color: tomato;
+}
+
+.carousel{
+    font-size: xx-large;
+    padding-top: 20px;
+    padding-right: 250px;
+    font-style: italic;
+    color: #ffff;
+}
+
+button
+{
+    background-color: rgb(33, 26, 104); 
+    color: #ffff;
+    border-radius: 50px;
+    margin-left: 500px;
+    padding: 12px;   
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 150px;
+    
+}
+li{
+    display: inline;
+    margin-right: 150px;  
+    font-family: monospace;
+    font-size:x-large;
+    color: #ffff;
+    text-align: center;
+    padding: 8px;
+}
+
+ .header_section{
+    height: 350px;
+    
+} 
+
+.header_section , .footer_section{
+    background-color: rgb(33, 26, 104); 
+  }
+
+.footer_section{
+    align-items: center;
+    justify-content: center;
+    
+}
+div{
+    margin: 7px;
+    display: inline-flex;
+    width: 360px;
+    height: 250px; 
+    word-spacing: 0.5em; 
+    padding: 20px;
+    border: 3px solid rgb(188, 195, 196);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10%;
+}
+
+#heading{
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding:1%;
+}
+
+h2, h1, p, button {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
